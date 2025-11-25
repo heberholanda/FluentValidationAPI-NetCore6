@@ -16,10 +16,24 @@
         public RegistrationStatus RegistrationStatus { get; set; }
     }
 
+    /// <summary>
+    /// Customer registration status
+    /// </summary>
     public enum RegistrationStatus
     {
+        /// <summary>
+        /// Waiting for approval
+        /// </summary>
         WaitingApproval = 1,
+        
+        /// <summary>
+        /// Approved
+        /// </summary>
         Aproved = 2,
+        
+        /// <summary>
+        /// Notice
+        /// </summary>
         Notice = 3
     }
 }
